@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:outlineAmbientShadowColor="@color/black"
+        android:padding="10dp"
+        android:paddingHorizontal="10dp">
+
+        <TextView
+            android:id="@+id/barang"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="Barang"
+            android:textColor="#5A5A5A"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:textAlignment="textEnd"
+            android:textColor="#5A5A5A"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:text="Qty"
+            android:textAlignment="textEnd"
+            android:textColor="#5A5A5A"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

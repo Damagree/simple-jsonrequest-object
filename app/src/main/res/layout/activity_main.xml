@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VOLLEY INTRO"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:textColor="#5A5A5A"
+            android:textSize="24sp"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <Button
+                    android:id="@+id/databarang_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="80"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_in"
+                    android:elevation="@dimen/cardview_default_elevation"
+                    android:fadingEdge="vertical"
+                    android:foreground="@drawable/ingredients100"
+                    android:foregroundGravity="center_vertical|center"
+                    android:gravity="center_vertical"
+                    app:iconTint="@color/cardview_shadow_start_color" />
+
+                <TextView
+                    android:id="@+id/barang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:text="Data Barang"
+                    android:textAlignment="center"
+                    android:textColor="#5A5A5A"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="103dp"
+                    android:layout_weight="80"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_in"
+                    android:elevation="@dimen/cardview_compat_inset_shadow"
+                    android:fadingEdge="vertical"
+                    android:foreground="@android:mipmap/sym_def_app_icon"
+                    android:foregroundGravity="center_vertical|center"
+                    android:gravity="center_vertical"
+                    app:iconTint="@color/cardview_shadow_start_color" />
+
+                <TextView
+                    android:id="@+id/harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:text="xxxxxxxxxx"
+                    android:textAlignment="center"
+                    android:textColor="#5A5A5A"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="103dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_in"
+                    android:elevation="@dimen/cardview_compat_inset_shadow"
+                    android:fadingEdge="vertical"
+                    android:foreground="@android:mipmap/sym_def_app_icon"
+                    android:foregroundGravity="center_vertical|center"
+                    android:gravity="center_vertical"
+                    app:iconTint="@color/cardview_shadow_start_color" />
+
+                <TextView
+                    android:id="@+id/qty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="xxxxxxxxxx"
+                    android:textAlignment="center"
+                    android:textColor="#5A5A5A"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="103dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:backgroundTintMode="src_in"
+                    android:elevation="@dimen/cardview_compat_inset_shadow"
+                    android:fadingEdge="vertical"
+                    android:foreground="@android:mipmap/sym_def_app_icon"
+                    android:foregroundGravity="center_vertical|center"
+                    android:gravity="center_vertical"
+                    app:iconTint="@color/cardview_shadow_start_color" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="xxxxxxxxxx"
+                    android:textAlignment="center"
+                    android:textColor="#5A5A5A"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
